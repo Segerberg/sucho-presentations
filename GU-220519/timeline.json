@@ -1,0 +1,99 @@
+{
+    "title": {
+          "media": {
+          "url": "img/sucho-logo.png"
+          },
+        "text": {
+          "headline": "SUCHO Timeline<br/>",
+          "text": "<p></p>"
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "img/Reporter's_Notebook_-_Confusion,_Chaos_as_Russia_Invades_Ukraine_02.jpg",
+          "caption": "A bus burns as Russia invades Ukraine on Feb. 24, 2022, on a road from Kharkiv to Kyiv.",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Reporter%27s_Notebook_-_Confusion,_Chaos_as_Russia_Invades_Ukraine_02.jpg\">Yan Boechat/VOA</a>, Public domain, via Wikimedia Commons"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "24",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Rysslands invasion",
+          "text": "<p>Inleds i gryningen den 24 februari 2022. Invasionen  föregicks av det ryska erkännandet av de självutnämnda staterna Donetsk och Lugansk tre dagar före invasionen.</p>"
+        }
+      },
+            {
+        "media": {
+          "url": "img/president-gov-ua.png",
+          "caption": "Screenshot of president.gov.ua",
+          "credit": ""
+        },
+        "start_date": {
+          "month": "2",
+          "day": "24",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Första insamlingen startar",
+          "text": "<p>i panik... de mest uppenbara sidorna</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "img/wikidata.png",
+          "caption": "Screenshot of wiki query service",
+          "credit": ""
+        },
+        "start_date": {
+          "month": "2",
+          "day": "25",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Wikidata som källa",
+          "text": "<p>Andra dagen av insamlingen lyckas vi identifera drygt 1300 officiella webbplatser utifrån länkning från wikipediaartiklar. </p>"
+        }
+      },
+            {
+        "media": {
+          "url": "img/Lesser_Coat_of_Arms_of_Ukraine.svg",
+          "caption": "",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Lesser_Coat_of_Arms_of_Ukraine.svg\">Alex KhristovDesign: Wasyl Krytschewskyj</a>, Public domain, via Wikimedia Commons"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "26",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Första kontakten med Ukraina",
+          "text": "<p>Med hjälp av vänners vänner lyckas vi få kontakt med personer som arbetar på olika myndigheter i Ukraina. Dessa personer hjälper oss att identifiera och prioritera de viktigaste webbplatserna</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "img/suchoposter-small.jpg",
+          "caption": "",
+          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Lesser_Coat_of_Arms_of_Ukraine.svg\">Alex KhristovDesign: Wasyl Krytschewskyj</a>, Public domain, via Wikimedia Commons"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "28",
+          "year": "2022"
+        },
+        "end_date": {
+          "month": "3",
+          "day": "1",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "SUCHO föds",
+          "text": "<p>“Krig kan permanent förstöra en hel kulturs artefakter och historiska källor. När Bosnien-Hercegovinas nationalbibliotek brann ner till grunden 1992, under belägringen av Sarajevo, förstördes 90 procent av dess samlingar, trots självuppoffrande räddningsförsök av stadens invånare. Vissa bibliotekarier dog och andra ådrog sig bestående skador när de försökte smuggla ut de äldsta manuskripten”, berättar Majstorovic. “Denna oåterkalleliga förlust av kulturarv i min pappas hemland har haft en stor inverkan på mig som historiker, och fanns i mitt bakhuvud när jag såg bilderna från Ukraina.”</p>"
+        }
+      }
+    ]
+}
