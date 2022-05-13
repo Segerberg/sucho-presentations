@@ -70,15 +70,15 @@
           "year": "2022"
         },
         "text": {
-          "headline": "Första kontakten med Ukraina",
-          "text": "<p>Med hjälp av vänners vänner lyckas vi få kontakt med personer som arbetar på olika myndigheter i Ukraina. Dessa personer hjälper oss att identifiera och prioritera de viktigaste webbplatserna</p>"
+          "headline": "Första kontakten med Ukrainska myndigheter",
+          "text": "<p>Med hjälp av vänners vänner får vi kontakt med personer som arbetar på olika myndigheter i Ukraina. Dessa personer hjälper oss att identifiera och prioritera de viktigaste webbplatserna</p>"
         }
       },
       {
         "media": {
           "url": "img/suchoposter-small.jpg",
           "caption": "",
-          "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Lesser_Coat_of_Arms_of_Ukraine.svg\">Alex KhristovDesign: Wasyl Krytschewskyj</a>, Public domain, via Wikimedia Commons"
+          "credit": "Vlad Kholodnyi (@kholodnyi_vlad)"
         },
         "start_date": {
           "month": "2",
@@ -92,7 +92,49 @@
         },
         "text": {
           "headline": "SUCHO föds",
-          "text": "<p>“Krig kan permanent förstöra en hel kulturs artefakter och historiska källor. När Bosnien-Hercegovinas nationalbibliotek brann ner till grunden 1992, under belägringen av Sarajevo, förstördes 90 procent av dess samlingar, trots självuppoffrande räddningsförsök av stadens invånare. Vissa bibliotekarier dog och andra ådrog sig bestående skador när de försökte smuggla ut de äldsta manuskripten”, berättar Majstorovic. “Denna oåterkalleliga förlust av kulturarv i min pappas hemland har haft en stor inverkan på mig som historiker, och fanns i mitt bakhuvud när jag såg bilderna från Ukraina.”</p>"
+          "text": "<p><em>“Krig kan permanent förstöra en hel kulturs artefakter och historiska källor. När Bosnien-Hercegovinas nationalbibliotek brann ner till grunden 1992, under belägringen av Sarajevo, förstördes 90 procent av dess samlingar, trots självuppoffrande räddningsförsök av stadens invånare. Vissa bibliotekarier dog och andra ådrog sig bestående skador när de försökte smuggla ut de äldsta manuskripten, denna oåterkalleliga förlust av kulturarv i min pappas hemland har haft en stor inverkan på mig som historiker, och fanns i mitt bakhuvud när jag såg bilderna från Ukraina.”</em> - Sebastian Majstorovic </p>"
+        }
+      },
+            {
+        "media": {
+          "url": "img/sebs_tweet.png",
+          "caption": "",
+          "credit": "https://twitter.com/storytracer/status/1498261158670868481"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "1",
+          "year": "2022"
+        },
+        "end_date": {
+          "month": "3",
+          "day": "15",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "organisering",
+          "text": "<p>En tweet får spridning. Inom loppet av några få dagar har hundratals volontärer anslutit sig.</p>"
+        }
+      },
+                  {
+        "media": {
+          "url": "img/512px-Amazon_Web_Services_Logo.svg.png",
+          "caption": "",
+          "credit": "Amazon.com Inc., Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>, via Wikimedia Commons"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "20",
+          "year": "2022"
+        },
+        "end_date": {
+          "month": "3",
+          "day": "20",
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Växer",
+          "text": "sdsd"
         }
       }
     ]
