@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.css">
+    <link title="timeline-styles" rel="stylesheet"
+          href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <script src="https://kit.fontawesome.com/82d4ece84c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+    <script src="plugin/chart/plugin.js"></script>
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h2>SUCHO</h2>
+            <img src="img/sucho-logo.png" height="120">
+            <p>A global community of volunteers with the aim to help preserve Ukraine’s online cultural heritage</p>
+            <p style="font-size: 10pt">Andreas Segerberg </p>
+            <p><a href="https://twitter.com/asegerberg"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:andreas.segerberg@gu.se"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/andreas-segerberg-34987a97"><i class="fab fa-linkedin"></i></a>
+            </p>
+            <p class="pull-left"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i
+                    class="fab fa-creative-commons-sa"></i></p>
+        </section>
+        <section>
+            <section>
+                <h2>Vad gjordes under den första tiden?</h2>
+                <p>Några "höjdpunkter"</p>
+            </section>
+            <section>
+                <iframe src="timeline.html" width="1000px" height="1000px"></iframe>
+            </section>
+        </section>
+        <section>
+            <section>
+                <img src="img/suchoposter-small.jpg" height="650">
+            </section>
+            <section>
+                <img src="img/sucho_diagram_cropped.png" height="650">
+            </section>
+            <section>
+                <h2>Länksamlare</h2>
+                <p style="font-size: 20pt">Registrerade volontärer har behörighet att lägga till direkt i våra register
+                    <br>
+                    Men vem som helst kan föreslå nya länkar via ett formulär
+                </p>
+
+                <!--<h2>Link collectors</h2>
+                <p style="font-size: 20pt">Teammates have edit access to our working spreadsheet.
+                    <br>
+                    But anyone can suggest new links via a form submission.
+                </p>-->
+                <img src="img/link_form.png" height="450">
+            </section>
+            <section>
+                <h2>Internet Archive(rs)</h2>
+                <p style="font-size: 20pt">Volontärer skickar in och säkerställer att webbsidor arkiveras i Wayback
+                    Machine.</p>
+                <!--<h2>Internet Archive(rs)</h2>
+                                <p style="font-size: 20pt">Volunteers submit and make sure that the sites are thoroughly captured by the
+                                    Wayback Machine, including sub-pages.</p>-->
+                <img src="img/batchprocess_google_sheets.png" height="450">
+            </section>
+            <section>
+                <h2>Manuell "Inspelning"</h2>
+                <p style="font-size: 20pt">Även om många webbplatser kan arkiveras genom automatiserade metoder finns
+                    det sidor som kräver mänsklig interaktion.</p>
+                <img src="img/manual_webrecorder.gif" height="300">
+                <!--                <h2>Manually recording</h2>
+                                <p style="font-size: 20pt">While many of sites can be captured by automated webcrawlers, some of them
+                                    (and some special features such as virtual tours within
+                                    a site) need a human being to navigate the site while recording it.</p>
+                                <img src="img/manual_webrecorder.gif" height="450">-->
+            </section>
+            <section>
+                <h2>Metadata curators</h2>
+                <p style="font-size: 20pt"> Mycket material laddas upp som kopior till Internet Archive. (t.ex. PDF:er
+                    och bilder). Suchos metadatagrupp ansvarar för att
+                    upprätta metadataposter för dessa objekt.
+                </p>
+                <img src="img/IA_metadata.png" height="400">
+            </section>
+            <section>
+                <h2>Browsertrixare</h2>
+                <p style="font-size: 20pt">Förutom att arkiveras hos Internet Archive gör SUCHO egna insamlingar genom
+                    browsertrix.
+                </p>
+
+                <!--                <h2>Browsertrixers</h2>
+                                <p style="font-size: 20pt"> Newly submitted links go to the Browsertrix tab of our working
+                                    spreadsheet (along with InternetArchive). Browsertrix is an automated web crawler using the
+                                    open-source Webrecorder software, and volunteers run it on their laptops, on servers they
+                                    manage, or even on Raspberry Pi devices!
+                                </p>-->
+                <img src="img/bc2.gif">
+            </section>
+            <section>
+                <h2>Scrapers</h2>
+                <p style="font-size: 20pt"> En del siter, så som bibliotekskataloger, respositorium för digitiserat
+                    material kräver ofta specialskrivna script för
+                    att kunna spara ner resurserna.
+                </p>
+                <!--            <h2>Scrapers</h2>
+                                <p style="font-size: 20pt"> Some sites, like library catalogs and repositories, don’t have URLs
+                                    that an automated web crawler can easily follow, so the scraping group writes custom code to
+                                    capture the contents of those sites. There are also special sub-groups of scraping with channels
+                                    on Slack, like #irbis.</p>-->
+                <img src="img/Library_of_rarebooks_Odesa_I_Mechnikov_University.png" width="900">
+
+            </section>
+            <section>
+                <h2>Situation monitoring</h2>
+                <!--<p style="font-size: 20pt">Monitors the development of the War and helps prioritize what content that needs to saved first</p>-->
+                <p style="font-size: 20pt">Bevakar händelseutvecklingen i kriget och hjälper till att prioritera </p>
+
+            </section>
+            <section>
+                <h2>Dataviz wizards</h2>
+                <p style="font-size: 20pt">Arbetar med visualisering och analyser av insamlat material och status för
+                    den ukrainska delen av internet</p>
+            </section>
+        </section>
+        <section>
+            <h3>Uppenbara Hot</h3>
+            <ul>
+                <li>Bomber</li>
+                <li>Strömavbrott</li>
+                <li>Hackerattacker</li>
+                <li>D/DOS</li>
+            </ul>
+            <!--<h3>Obvious Threats</h3>
+            <ul>
+                <li>Shelling</li>
+                <li>Power outages</li>
+                <li>Hacking</li>
+                <li>D/DOS</li>
+            </ul>
+            -->
+            <img style="float: right" src="img/denazify_library.png" width="500">
+        </section>
+        <section>
+
+            <img src="img/recorded_warcrimes.gif">
+            <a style="font-size: 12pt" href="https://culturecrimes.mkip.gov.ua/">https://culturecrimes.mkip.gov.ua/</a>
+        </section>
+        <section>
+            <section>
+                <h3>Kanske inte så uppenbara hot</h3>
+                <!--<h3>Maybe not so obvious threats</h3>-->
+            </section>
+            <section>
+                <h3>Välmenande arkivarier (D/Dos)</h3>
+                <!--<h3>Well-meaning archivists (D/Dosers)</h3>-->
+                <img src="img/download_speed.png">
+            </section>
+            <section>
+                <h3>Hosting</h3>
+                <img style="float: inside" src="img/min_foreign_affairs_tweet.png">
+                <img style="float: inside" src="img/hertzner_tweet.png">
+                <!--<h3>Hosting</h3>-->
+            </section>
+            <section>
+                <h3>Arkivering av desinformation</h3>
+                <!--<h3>Archiving mis- and desinformation</h3>-->
+                <img style="float: right" src="img/fake_news.png" width="450">
+                <img style="float: right" src="img/same_content.png" width="300">
+            </section>
+        </section>
+        <section>
+            <section>
+                <h3>Andra utmaningar</h3>
+                <!--<h3>Other challenges</h3>-->
+            </section>
+            <section>
+                <h3>Språkbarriärer</h3>
+                <img style="float: inside" src="img/irbis_manual.png" height="350">
+            </section>
+            <section><h3>Kontakter</h3></section>
+            <section><h3>Felkonfigurerade system</h3>
+                <img style="float: inside" src="img/dspace_error.png" width="700">
+            </section>
+            <section><h3>Cloudfare</h3>
+                <img style="float: inside" src="img/IA_cloudfare.png">
+            </section>
+            <!--<section><h3>Language barriers</h3><img style="float: inside" src="img/irbis_manual.png" height="350"></section>
+                 <section><h3>Making contact</h3></section>
+                 <section><h3>Misconfigured systems</h3>
+                 <img style="float: inside" src="img/dspace_error.png" width="700"></section>
+                 <section><h3>Cloudfare</h3>
+                 <img style="float: inside" src="img/IA_cloudfare.png">
+                 </section>-->
+        </section>
+        <section>
+            <section>
+                <!--<h3>Some statistics</h3>-->
+                <h4>Lite Statistik</h4>
+                <img src="img/IA_stats.png" height="500">
+                <p style="font-size: 12pt">Pages saved to Wayback</p>
+            </section>
+            <section>
+                <span>SUCHO</span>
+                <br>
+                <img style="float: inside" src="img/sucho-logo.png" height="120">
+                <br>
+                <p><strong>40+ TB</strong> scannade document, konstföremål och andra artefakter från <strong>
+                    4,500+ </strong> Ukrainska museums, bibliotek och arkiv.</p>
+                <!--<p><strong>40+ TB</strong> of scanned documents, artworks and other digital materials from<strong> 4,500+ </strong>websites of Ukrainian museums, libraries and archives.</p>-->
+            </section>
+            <section>
+                <span>Special Collection (GOV.UA)</span>
+                <br>
+                <img style="float: inside" src="img/Lesser_Coat_of_Arms_of_Ukraine.svg" height="120">
+                <br>
+                <!--<p><strong>10+ TB</strong> of archived webcontent from <strong> 6,500+ </strong>websites of Ukrainian authorities and civil organizations</p>-->
+                <p><strong>10+ TB</strong> WARC filer från <strong> 6,500+ </strong>Ukrainska myndigheter och civila
+                    organisationer</p>
+            </section>
+            <section>
+                <img src="img/587px-Archive_team.png" height="200">
+                <p style="font-size: 20pt"><strong>21+ TB</strong> | <strong>740 miljoner</strong> resurser sparade från toppdomänen <a href="https://tracker.archiveteam.org/ua/">.ua</a></p>
+                <p style="font-size: 20pt"><strong>17.35 TB</strong> | <strong>377 miljoner</strong> resurser sparade från nyhetssidor <a href="https://tracker.archiveteam.org/ukr-net/ ">ukr.net</a></p>
+                <p style="font-size: 20pt"><strong>5.29 TB</strong> | <strong> 73 tusen</strong> resurser (Tv-sändningar) från  <a href="https://tracker.archiveteam.org/suspilne/">suspilne</a></p>
+
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <!--<h3>Lessons learned</h3>-->
+                <h3>Lärdomar</h3>
+            </section>
+            <section>
+                <!--<h3>Open data is essential</h3>-->
+                <h4>Tillgång till öppen data har varit avgörande </h4>
+            </section>
+            <section>
+                <h4>zonefiles</h4>
+                <!--<p style="font-size: 20pt">A zone file contains DNS information about a particular domain name, for example the names of the webserver for the domain and, if applicable, their respective IP-addresses. The data in a zone is technical information required for the domain name to function. As such, a zone file does not contain any confidential information.</p>-->
+                <p style="font-size: 20pt">En zonfil innehåller DNS-information för ett domännamn, till exempel vilken eller vilka servrar man ansluter mot för att nå motsvarande webbsida. Det finns ingen hemlig information i en zonfil, utan det som publiceras är den tekniska information som krävs för att domännamnen ska fungera.</p>
+                <ul style="font-size: 18pt">
+                    <li><a href="https://domainsproject.org/">Domainsproject</a> - 1.7 miljarder domäner</li>
+                    <li><a href="https://zonedata.iis.se/">Internetstiftelsen </a> - Alla .se och .nu domäner</li>
+                </ul>
+            </section>
+            <section>
+                <h4>wikidata</h4>
+                <img src="img/wikidata.png" height="250">
+            </section>
+            <section>
+                <h4>open streetmaps</h4>
+                <img src="img/open_street_map.png" width="700">
+                <!--<p>686 museums located inside Ukraine</p>-->
+                <p>686 museums lokaliserade</p>
+            </section>
+            <section>
+                <!--<h4>People</h4>-->
+                <h2>Människor</h2>
+            </section>
+
+
+        </section>
+        <section>
+            <!--<h3>Next steps</h3>-->
+            <h3>Nästa steg</h3>
+            <ul>
+                <li>Koordinering av donationer</li>
+                <li>Partnerskap med myndigheter</li>
+                <li>Långsiktig finansiering</li>
+            </ul>
+            <br>
+            <a href="https://opencollective.com/sucho" style="alignment: bottom"><img src="img/opencollective-icon.svg">
+                <img src="img/open_collective_logotype.svg"></a>
+
+        </section>
+        <section>
+            <h4>Tack för uppmärksamheten</h4>
+            <img src="img/sucho2.png" height="300">
+            <p> <a href="https://sucho.org">https://sucho.org</a></p>
+                        <a href="https://opencollective.com/sucho" style="alignment: bottom"><img src="img/opencollective-icon.svg">
+                <img src="img/open_collective_logotype.svg"></a>
+
+        </section>
+
+
+    </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+<script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealChart]
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        var embed = document.getElementById('timeline-embed');
+        embed.style.height = getComputedStyle(document.body).height;
+        window.timeline = new TL.Timeline('timeline-embed', 'timeline.json', {
+            hash_bookmark: false
+        });
+        window.addEventListener('resize', function () {
+            var embed = document.getElementById('timeline-embed');
+            embed.style.height = getComputedStyle(document.body).height;
+            timeline.updateDisplay();
+        })
+    });
+</script>
+</body>
+</html>
