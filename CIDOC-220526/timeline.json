@@ -1,0 +1,142 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "img/Reporter's_Notebook_-_Confusion,_Chaos_as_Russia_Invades_Ukraine_02.jpg",
+        "caption": "A bus burns as Russia invades Ukraine on Feb. 24, 2022, on a road from Kharkiv to Kyiv.",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Reporter%27s_Notebook_-_Confusion,_Chaos_as_Russia_Invades_Ukraine_02.jpg\">Yan Boechat/VOA</a>, Public domain, via Wikimedia Commons"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "24",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "Rysslands invasion",
+        "text": "<p>Inleds i gryningen den 24 februari 2022. Invasionen  föregicks av det ryska erkännandet av de självutnämnda staterna Donetsk och Lugansk tre dagar före invasionen.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "img/desktop.png",
+        "caption": "",
+        "credit": ""
+      },
+      "start_date": {
+        "month": "2",
+        "day": "24",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "Första insamlingen startar",
+        "text": "<p>i panik... de mest uppenbara sidorna</p>"
+      }
+    },
+        {
+      "media": {
+        "url": "img/IA_president.png",
+        "caption": "Screenshot of president.gov.ua from web.archive.org",
+        "credit": ""
+      },
+      "start_date": {
+        "month": "2",
+        "day": "24",
+        "year": "2022"
+      },
+          "end_date": {
+        "month": "2",
+        "day": "27",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "Fler försöker göra vad de kan",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "media": {
+        "url": "img/6.jpg",
+        "caption": " National Literary Memorial Museum of H.S. Skovoroda",
+        "credit": "https://culturecrimes.mkip.gov.ua/"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "24",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "International Council of Museums (ICOM)",
+        "text": "<p>called on civil society in Ukraine to assist their local museums to protect their holdings https://icom.museum/en/news/statement-russia-invasion-into-ukraine/ </p>"
+      }
+    },
+    {
+      "media": {
+        "url": "img/587px-Archive_team.png",
+        "caption": "Draft version of archiveteam warrior logo",
+        "credit": "Penelope Schenk. http://www.catwholaughed.com/pasbio.html"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "24",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "",
+        "text": "<p>Archive Team starts major website crawls</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "img/wikidata.png",
+        "caption": "Screenshot of wiki query service",
+        "credit": ""
+      },
+      "start_date": {
+        "month": "2",
+        "day": "25",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "Wikidata som källa",
+        "text": "<p>Andra dagen av insamlingen lyckas vi identifera drygt 1300 officiella webbplatser utifrån länkning från wikipediaartiklar. </p>"
+      }
+    },
+    {
+      "media": {
+        "url": "img/Lesser_Coat_of_Arms_of_Ukraine.svg",
+        "caption": "",
+        "credit": "<a href=\"https://commons.wikimedia.org/wiki/File:Lesser_Coat_of_Arms_of_Ukraine.svg\">Alex KhristovDesign: Wasyl Krytschewskyj</a>, Public domain, via Wikimedia Commons"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "26",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "Första kontakten med Ukrainska myndigheter",
+        "text": "<p>Med hjälp av vänners vänner får vi kontakt med personer som arbetar på olika myndigheter i Ukraina. Dessa personer hjälper oss att identifiera och prioritera de viktigaste webbplatserna</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "img/sebs_tweet.png",
+        "caption": "",
+        "credit": "https://twitter.com/storytracer/status/1498261158670868481"
+      },
+      "start_date": {
+        "month": "2",
+        "day": "28",
+        "year": "2022"
+      },
+      "end_date": {
+        "month": "3",
+        "day": "1",
+        "year": "2022"
+      },
+      "text": {
+        "headline": "SUCHO föds",
+        "text": "<p>En tweet får spridning. Inom loppet av några få dagar har hundratals volontärer anslutit sig.</p>"
+      }
+    }
+  ]
+}
